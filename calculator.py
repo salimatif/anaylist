@@ -19,9 +19,27 @@ print("the valu of ", a, "*", 34, "is:", a*b)
 print("the valu of ", a, "/", 34, "is:", a/b) 
  
  # typecasting in python
+ # explict typecasting 
+
 a = 1
 b = 2
 print(str(a) +str(b))
+
+# implicit typecasting 
+
+c = 7.5
+d = 8
+print(c+d)
+
+
+
+
+
+
+
+
+
+
 
 
 
