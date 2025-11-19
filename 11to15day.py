@@ -1,0 +1,63 @@
+# strings in python
+name = "atif salim"
+print("the name is:" + name)
+
+apple = "he said, \"i want to eat an apple"
+print(apple)
+
+banana = 'she said, "i want to eat a banana'
+print(banana)
+
+mango = '''he said, "i want to eat a mango"'''
+print(mango)
+
+name = "atif"
+surname = "salim"
+full_name = name + " " + surname
+print("the full name is:", full_name)
+
+# string functions in python
+name = "atif salim"
+print("the length of name is:", len(name))
+print("the uppercase of name is:", name.upper())
+print("the lowercase of name is:", name.lower())
+print("the replace function in name is:", name.replace("atif", "shaikh"))
+print("the index of s in name is:", name.index("s"))
+print("the count of a in name is:", name.count("a"))
+print("the split function in name is:", name.split(" "))
+print("the capitalize function in name is:", name.capitalize())
+
+somthing = '''Python is a versatile, high-level programming language
+ widely adopted across technology, data analytics, automation,
+   and application development. Its clean syntax and extensive
+     libraries enable rapid prototyping, scalable solution design, 
+     and seamless integration with modern workflows.
+       Organizations leverage Python to enhance operational efficiency,
+         drive data-driven decision-making,
+           and streamline complex processes through automation and machine learning.
+             Its strong ecosystem, community support,
+               and cross-platform capability make Python a strategic 
+               asset for both individual developers and enterprise environments seeking agility
+                 and innovation'''
+print(somthing)   
+
+N = "ATIF SALIM"
+print(N[0])
+print(N[1])
+print(N[2])
+print(N[3])
+print(N[4])
+print(N[5])
+print(N[6])
+print(N[7])
+print(N[8])
+print(N[9])
+# print(N[10]) #this is inex error because stringa ends
+# 9th degit thats why the 10th no is index error
+
+
+
+print("lets use a for loop\n")
+
+for character in N:
+    print(character)
