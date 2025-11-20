@@ -63,3 +63,39 @@ for character in N:
     print(character)
 
 print("string slicing in python\n")
+
+# string slicing
+name = "atif, salim"
+print(name[0:4])
+print(name[6:11])
+
+# length of string slicing
+
+x = "catterpillar"
+ans = len(x)
+print("catterpiller is a", ans, "letter word.")
+
+y = "hippopotamus"
+len1 = len(y)
+print(len1)
+
+z = "elephant"
+n = len(z)
+print(n)
+print(z[0:4])
+print(z[4:8])
+print(z[0:8])
+print(z[2:6])
+
+nm = "harry"
+print(nm[-4:-2])
+
+msg = "hello world"
+print(len(msg))
+print(msg[:])
+# print(msg[3:-5]) #ans is lo 
+# print(msg[-4:-3])
+
+
+
+
