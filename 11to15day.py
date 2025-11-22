@@ -96,6 +96,17 @@ print(msg[:])
 # print(msg[3:-5]) #ans is lo 
 # print(msg[-4:-3])
 
+# wap to find a even or odd number by take input 
+num = int(input("enter a number:"))
+if num % 2 == 0:
+    print(num, "is an even number")
+else:
+    print(num, "is an odd number")  
 
+# string methods in python upper()
+str1 = "ADFJDFHsdjffjnfjSDHsdk"
+print(str1.upper())
 
+# string methods in python lower() 
+print(str1.lower())
 
