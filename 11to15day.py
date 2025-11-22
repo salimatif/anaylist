@@ -109,4 +109,63 @@ print(str1.upper())
 
 # string methods in python lower() 
 print(str1.lower())
+# string are immutable
+
+# rstrip() method
+a = "hello!!!!!!"
+print(a.rstrip("!"))
+
+#replace() method
+b = "silver spoon "
+print (b.replace("sp", "m"))
+print(b.replace("silver", "golden"))
+
+#split() method
+c = "hello world welcome to python"
+print(c.split(" "))
+print(c.split("o"))
+
+# capitalize() method
+d = "hello world" 
+print(d.capitalize()) 
+
+#center() method
+e = "the art of not overthining"
+print(e.center(100))
+
+# count() method
+f = "atif salim atif salim atif"
+print(f.count("atif"))
+print(f.count("salim"))
+
+# endswith() methods
+g = "welcome to python programme"
+print(g.endswith("to", 4, 10))
+
+# find() method
+h = " he's name is dan. he is an honest man."
+print(h.find("is"))
+k = " he's name is dan. he is an honest man."
+print(k.find("ishh"))
+
+# index() method
+i = "ragib is multispeciality randi" 
+print(i.index("is"))
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
 
