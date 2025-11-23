@@ -146,11 +146,19 @@ print(g.endswith("to", 4, 10))
 h = " he's name is dan. he is an honest man."
 print(h.find("is"))
 k = " he's name is dan. he is an honest man."
-print(k.find("ishh"))
+print(k.find("ishh")) 
 
 # index() method
-i = "ragib is multispeciality randi" 
-print(i.index("is"))
+h = " he's name is dan. he is an honest man."
+print(h.find("is"))
+# x = " he's name is dan. he is an honest man."
+# print(x.find("ishh")) @that is directly error
+
+id = "Welco9m3eT8oTheCo4n56sole"
+print(id.isalnum())
+
+ak = "welcometotheconsole"
+print(ak.isalpha())
 
 
 
